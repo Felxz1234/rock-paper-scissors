@@ -1,15 +1,19 @@
 import React from 'react'
-import Body from './components/body/body'
-import Header from './components/header/Header'
-import Footer from './components/footer/Footer'
 import './App.css'
+import Router from './Router'
+import  {Provider} from "react-redux"
+import {createStore} from 'redux'
+import reducer from './components/reducers/redux'
 
 function App(){
+
+  const store = createStore(reducer)
+
   return(
     <div className='app'>
-       <Header></Header>
-       <Body></Body>
-       <Footer></Footer>
+      <Provider store={store}>
+         <Router/>
+      </Provider>
     </div>
   )
 }

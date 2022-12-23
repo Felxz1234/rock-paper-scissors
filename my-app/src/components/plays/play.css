@@ -1,0 +1,55 @@
+.players{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    
+}
+
+.escolha{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.um{
+    border-radius: 80px;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+
+
+.dois{
+    border-radius: 80px;
+    width: 180px;
+    height: 180px;
+    cursor: pointer;
+    
+}
+
+
+@media screen and (max-width: 640px) {
+    .um{
+        width: 140px;
+        height: 120px;
+    }
+    .dois{
+        width: 140px;
+        height: 120px;
+    }
+    .escolha{
+        font-size: 15px;
+    }
+}
+
+.escolhendo{
+    color: white;
+    font-weight: bold;
+}

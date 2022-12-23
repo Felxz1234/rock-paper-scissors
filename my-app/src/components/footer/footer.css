@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bu{
+     background-color: hsl(214, 47%, 23%);
+     color: white;
+     border-radius: 10px;
+     border-color: white;
+     font-size: 20px;
+     margin-left: 20px;
+     cursor: pointer;
+}
+
+.bu:hover{
+    background-color: white;
+    color: blue;
+}
+
+
+@media screen and (max-width: 712px) {
+    .footer{
+        justify-content: center;
+    }
+}
