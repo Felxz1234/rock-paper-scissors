@@ -1,4 +1,4 @@
 # rock-paper-scissors
 
 
-jogo pedra, papeo e tesoura
+jogo pedra, papel e tesoura
