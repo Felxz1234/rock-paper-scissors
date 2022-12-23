@@ -7,7 +7,7 @@ import Footer from "../footer/Footer";
 export default function Iniitial(){
     return(
         <div className="innitial">
-               <Header></Header>
+               <Header pontos={0}></Header>
                <Body></Body>
                <Footer></Footer>
         </div>

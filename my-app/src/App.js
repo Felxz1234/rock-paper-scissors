@@ -5,6 +5,8 @@ import  {Provider} from "react-redux"
 import {createStore} from 'redux'
 import reducer from './components/reducers/redux'
 
+
+
 function App(){
 
   const store = createStore(reducer)
